@@ -1,7 +1,12 @@
+import App from "../../App";
+
 export default function NotFound() {
   return (
-    <main style={{ padding: "1rem" }}>
-      <p>Não encontrado!</p>
-    </main>
+    <>
+      <App />
+      <main style={{ padding: "1rem" }}>
+        <p>Não encontrado!</p>
+      </main>
+    </>
   );
 }
